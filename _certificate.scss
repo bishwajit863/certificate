@@ -1,0 +1,66 @@
+.certificate {
+  // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &-1 {
+    height: 70rem;
+    background-image: linear-gradient(
+        to right bottom,
+        $color-primary-1,
+        $color-primary-light-1
+      ),
+      url("../../img/certificate-1.jpg");
+
+    position: relative;
+    padding-top: 5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  &-2 {
+    height: 70rem;
+    background-image: linear-gradient(
+        to right bottom,
+        $color-primary-1,
+        $color-primary-light-1
+      ),
+      url("../../img/certificate-2.jpg");
+
+    position: relative;
+    padding-top: 5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  &-3 {
+    height: 70rem;
+    background-image: linear-gradient(
+        to right bottom,
+        $color-primary-1,
+        $color-primary-light-1
+      ),
+      url("../../img/certificate-3.jpg");
+
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+.certificate-text {
+  font-size: 1.3rem;
+  color: $color-white;
+  position: absolute;
+  top: 10rem;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+// .certificate-heading {
+//   // padding: 2rem;
+// }
